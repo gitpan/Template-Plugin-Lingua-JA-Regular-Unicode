@@ -3,7 +3,7 @@ package Template::Plugin::Lingua::JA::Regular::Unicode;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw(Template::Plugin);
 use Lingua::JA::Regular::Unicode;
@@ -19,6 +19,8 @@ sub new {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
